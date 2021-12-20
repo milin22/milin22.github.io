@@ -80,7 +80,7 @@ body {
   right: 5px;
   bottom: -35px;
   color: #fff;
-  background-color: rgb(255, 108, 114);
+  background-color: rgb(115, 101, 224);
   padding: 5px 8px;
   border-radius: 3px;
 }
@@ -118,14 +118,14 @@ body {
 
 .six img {
   display: inline-block;
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
 }
 
 .six .hat {
   position: absolute;
   width: 80px;
-  top: -35px;
+  top: -50px;
   left: 41.5%;
   /* transform: scale(0.1); */
 }
@@ -218,7 +218,7 @@ body {
 
 .wish h5 {
   font-weight: lighter;
-  font-size: 2rem;
+  font-size: 1.4rem;
   margin: 10px 0 0;
 }
 
