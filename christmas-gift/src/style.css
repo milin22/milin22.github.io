@@ -1,0 +1,44 @@
+canvas {
+	position: absolute;
+	top: calc( 50% - 200px );
+	left: calc( 50% - 200px );
+	background-color: #222;
+	box-shadow: 0 0 10px #222;
+}
+body {
+	background-color: #444;
+}
+span {
+	
+	cursor: pointer;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: calc( 50% - 200px );
+	left: calc( 50% - 200px );
+	text-align: center;
+	font: 20px Verdana;
+	line-height: 400px;
+	color: white;
+	text-shadow: 0 0 6px white;
+	transition: text-shadow .5s;
+}
+span:hover {
+	
+	text-shadow: 0 0 0px white;
+}
+p {
+	font: 30px Verdana;
+	color: #eee;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+p.above {
+	top: calc( 50% - 270px );
+}
+p.below {
+	font-size: 20px;
+	top: calc( 50% + 190px );
+}
