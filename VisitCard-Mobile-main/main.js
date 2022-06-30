@@ -1,9 +1,10 @@
 const LinksSocialMedia = {
   github: 'daltonbellini',
   youtube: 'channel/UC1xdCSc7FGo6IfjWGBxAKYw',
-  facebook: 'yuppie0',
+  facebook: '100005803123496',
   instagram: 'lia.chamchi',
   twitter: 'DevDalton'
+  tel: '0373535234'
 }
 function changeSocialMediaLinks() {
   for (let li of socialLinks.children) {
