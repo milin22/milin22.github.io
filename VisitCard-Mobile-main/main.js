@@ -1,5 +1,5 @@
 const LinksSocialMedia = {
-  github: 'daltonbellini',
+  github: 'milin22',
   youtube: 'channel/UC1xdCSc7FGo6IfjWGBxAKYw',
   facebook: '100005803123496',
   instagram: 'lia.chamchi',
