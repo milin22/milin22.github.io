@@ -35,6 +35,9 @@
         margin-left: auto;
         text-align: center;
       }
+      .tel{
+        display: flex;
+      }
 
       /* AVATAR / FOTO DA PESSOA*/
       .avatar{ 
