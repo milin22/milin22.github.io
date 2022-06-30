@@ -1,8 +1,8 @@
 const LinksSocialMedia = {
   github: 'daltonbellini',
   youtube: 'channel/UC1xdCSc7FGo6IfjWGBxAKYw',
-  facebook: '100071669115327',
-  instagram: 'daltonbellini',
+  facebook: 'yuppie0',
+  instagram: 'lia.chamchi',
   twitter: 'DevDalton'
 }
 function changeSocialMediaLinks() {

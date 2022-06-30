@@ -46,7 +46,7 @@
        width: 10rem;
        height: 11.5rem;
        object-fit: cover;
-       clip-path: polygon(0 25%, 50% 0, 100% 28%, 100% 74%, 50% 100%, 0 75%);
+       clip-path: circle();
       }
       /* TAMANHO DA FONTE DO NOME DA PESOA */
       h1 {
