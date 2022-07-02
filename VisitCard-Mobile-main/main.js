@@ -13,4 +13,8 @@ function changeSocialMediaLinks() {
 }
 changeSocialMediaLinks()
 
+document.querySelect('#btn').addEventListener('click', function() {
+   copyToClipboard('copy this text');
+});
+
 
