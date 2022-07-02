@@ -1,9 +1,8 @@
 const LinksSocialMedia = {
   github: 'milin22',
-  youtube: 'channel/UC1xdCSc7FGo6IfjWGBxAKYw',
-  facebook: '100005803123496',
+  youtube: 'channel/UC3OXwS64hiaXi-r-U-qXCWw',
+  facebook: 'yuppie0',
   instagram: 'lia.chamchi',
-  twitter: 'DevDalton'
 }
 function changeSocialMediaLinks() {
   for (let li of socialLinks.children) {
