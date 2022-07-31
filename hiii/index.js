@@ -40,6 +40,14 @@ function quest_153682_features () {
       }
     
       
+      function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+
   };
   
       document.addEventListener("DOMContentLoaded", quest_153682_features);

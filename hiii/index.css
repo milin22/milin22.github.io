@@ -65,7 +65,7 @@
   font-style:normal;
   font-family:Roboto;
   font-weight:400;
-  font-size:22px;
+  font-size:20px;
   line-height:26px;
 }
 .Nguy-n-Th--M--Linh-outer{
@@ -512,7 +512,7 @@
   position:relative;
   z-index:14;
   pointer-events:none;
-  margin-left:188px;
+  margin-left:150px;
   width:31px;
   min-width:31px;
   margin-top:-154px;
@@ -534,4 +534,9 @@
   z-index:14;
   position:relative;
   display:flex;
+}
+p
+{
+  color:#000000;
+  font-size:0px;
 }
