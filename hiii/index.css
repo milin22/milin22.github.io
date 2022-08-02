@@ -57,7 +57,7 @@
   margin-top:-478px;
   margin-bottom:452px;
   min-height:26px;
-  text-align:left;
+  text-align:center;
   display:flex;
   flex-direction:column;
   justify-content:flex-start;
@@ -507,36 +507,4 @@
   z-index:15;
   position:relative;
   display:flex;
-}
-.BIDV{
-  position:relative;
-  z-index:14;
-  pointer-events:none;
-  margin-left:150px;
-  width:31px;
-  min-width:31px;
-  margin-top:-154px;
-  margin-bottom:138px;
-  min-height:16px;
-  text-align:left;
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
-  color:rgba(0, 0, 0, 1);
-  font-style:normal;
-  font-family:Roboto;
-  font-weight:400;
-  font-size:14px;
-  line-height:16.666667938232422px;
-}
-.BIDV-outer{
-  pointer-events:none;
-  z-index:14;
-  position:relative;
-  display:flex;
-}
-p
-{
-  color:#000000;
-  font-size:0px;
 }
