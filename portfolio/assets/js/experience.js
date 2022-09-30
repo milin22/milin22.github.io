@@ -5,26 +5,20 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/replyk73.mp4",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Tuần lễ tri ân",
+    cardImage: "assets/images/experience-page/tlta.jpg",
+    place: "Đại học Dược Hà Nội",
+    time: "(11/2018 & 11/2019)",
+    desp: "<li>Vai trò của thành viên của ban Truyền thông và thành viên ban Kỹ thuật</li> <li>Lên ý tưởng cho chủ đề của sự kiện từng năm, nhằm tri ân ngày nhà giáo Việt Nam</li> <li>Lên nội dung và thiết kế cho các ấn phẩm truyền thông cho chương trình</li> <li>Hỗ trợ tổ chức các sự kiện diễn ra trong suốt chương trình</li>" ,
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Hương thườngwith MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Quà tết nhân ái",
+    cardImage: "assets/images/experience-page/qtna.jpg",
+    place: "Đại học Dược Hà Nội",
+    time: "(1/2018 & 1/2019)",
+    desp: "<li>Thành viên ban tổ chức chương trình</li><li>Đóng góp, xây dựng kế hoạch để thu hút mọi người ủng hộ chương trình</li>",
   },
-  {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
-  },
+  
 ];
 
 const showCards2 = () => {
