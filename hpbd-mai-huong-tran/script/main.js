@@ -82,20 +82,20 @@ const animationTimeline = () => {
     })
     .staggerTo(
       ".hbd-chatbox span",
-      0.5,
+      0.3,
       {
         visibility: "visible"
       },
       0.05
     )
     .to(".fake-btn", 0.1, {
-      backgroundColor: "rgb(3, 120, 166)"
+      backgroundColor: "rgb(127, 206, 248)"
     })
     .to(
       ".four",
       0.5,
       {
-        scale: 0.2,
+        scale: 0.1,
         opacity: 0,
         y: -150
       },
@@ -109,7 +109,7 @@ const animationTimeline = () => {
     .to(".idea-3 strong", 0.5, {
       scale: 1.2,
       x: 10,
-      backgroundColor: "rgb(3, 120, 166)",
+      backgroundColor: "rgb(21, 161, 237)",
       color: "#fff"
     })
     .to(".idea-3", 0.7, ideaTextTransLeave, "+=1.5")
@@ -195,8 +195,8 @@ const animationTimeline = () => {
       "-=2"
     )
     .from(".hat", 0.5, {
-      x: -75,
-      y: 250,
+      x: -100,
+      y: 350,
       rotation: -180,
       opacity: 0
     })
